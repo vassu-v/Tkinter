@@ -1,3 +1,4 @@
+#python 3+
 from tkinter import *
 import tkinter.messagebox as messagebox
 
@@ -35,7 +36,7 @@ class TkDemo():
         title = Label(master, text='这是一份无趣的调查问卷--建文大帝编', font='15', bg='white', fg='red')
         title.pack()
 
-        # 问题1放在frame1中 (Frame)
+        # frame1 (Frame)
         frame1 = Frame(master)
         frame1.pack(fill=X)
         # 问题
